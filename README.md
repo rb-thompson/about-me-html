@@ -34,9 +34,11 @@ Inside `index.html`:
 Inside `/about-me-html`
 - [x] Create a directory `/css` to contain css styles
 - [x] Create a directory `/scripts` to contain any scripts
+
 Inside `/css`
 - [x] Create a `style.css` stylesheet
 - [x] Create css rules to handle layout and appearance
+
 Inside `index.html`
 - [x] Create a `<link>` element and point the `src` to your stylesheet
 - [x] Update elements to include any classes you create
