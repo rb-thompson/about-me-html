@@ -38,8 +38,9 @@ Inside `/css`
 - [x] Create a `style.css` stylesheet
 - [x] Create css rules to handle layout and appearance
 Inside `index.html`
-- [ ] Create a `<link>` element and point the `src` to your stylesheet
-- [ ] Update elements to include any classes you create
+- [x] Create a `<link>` element and point the `src` to your stylesheet
+- [x] Update elements to include any classes you create
+- [x] Update `<h1>` to link to my GitHub.
 
 
 ### Tips
