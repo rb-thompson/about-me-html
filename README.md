@@ -32,7 +32,7 @@ Inside `index.html`:
 
 ### Additional Tasks
 Inside `/about-me-html`
-- [ ] Create a directory `/css` to contain css styles
+- [x] Create a directory `/css` to contain css styles
 - [ ] Create a directory `/scripts` to contain any scripts
 Inside `/css`
 - [ ] Create a `style.css` stylesheet
