@@ -1,2 +1,84 @@
-/* blank stylesheet for my project */
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 1fr; /* For mobile, one column */
+    gap: 20px;
+    padding: 20px;
+}
 
+h1, h2 {
+    color: #ffffff;
+    margin: 0;
+}
+
+h1 {
+    grid-column: 1 / -1; /* Span across all columns */
+    text-align: center;
+    padding: 20px 0;
+}
+
+hr {
+    grid-column: 1 / -1; /* Span across all columns */
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr; /* For mobile, one column */
+    gap: 20px;
+}
+
+/* For medium devices like tablets */
+@media screen and (min-width: 600px) {
+    body {
+        grid-template-columns: 1fr 1fr; /* Two columns on tablets */
+    }
+    
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    h1, hr {
+        grid-column: 1 / -1; /* Span across all columns */
+    }
+}
+
+/* For larger devices */
+@media screen and (min-width: 900px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr; /* Three columns on larger screens */
+    }
+    
+    .content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    h1, hr {
+        grid-column: 1 / -1; /* Span across all columns */
+    }
+}
+
+ul, ol {
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling for links if you decide to add any */
+a {
+    color: #4e9ff7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
