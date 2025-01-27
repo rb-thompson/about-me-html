@@ -33,7 +33,7 @@ Inside `index.html`:
 ### Additional Tasks
 Inside `/about-me-html`
 - [x] Create a directory `/css` to contain css styles
-- [ ] Create a directory `/scripts` to contain any scripts
+- [x] Create a directory `/scripts` to contain any scripts
 Inside `/css`
 - [ ] Create a `style.css` stylesheet
 - [ ] Create css rules to handle layout and appearance
