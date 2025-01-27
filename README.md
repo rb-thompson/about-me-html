@@ -30,6 +30,16 @@ Inside `index.html`:
 - [x] Create an ordered list underneath your `<h2>`.
 - [x] Inside your ordered list, create 3 `<li>` tags to list your goals.
 
+### Additional Tasks
+Inside `/about-me-html`
+- [ ] Create a directory `/css` to contain css styles
+- [ ] Create a directory `/scripts` to contain any scripts
+Inside `/css`
+- [ ] Create a `style.css` stylesheet
+- [ ] Create css rules to handle layout and appearance
+Inside `index.html`
+- [ ] Create a `<link>` element and point the `src` to your stylesheet
+- [ ] Update elements to include any classes you create
 
 
 ### Tips
