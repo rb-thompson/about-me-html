@@ -4,34 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #ffffff;
+            margin: 0;
+        }
+
+        h2 {
+            align-self: center;
+            justify-self: end;
+            padding-right: 1.5em;
+            font-size: 1.3em;
+        }
+
+        h1 {
+            grid-column: 1 / -1; /* Span across all columns */
+            text-align: center;
+            padding: 20px 0;
+            font-size: 2em;
+        }
+
+        a {
+            color: #4e9ff7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            width: 70%;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr; /*  one column */
+            gap: 20px;
+        }
+
+        .content-wrapper {
+            padding: 10px 150px;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /*  one column */
+            align-items: start;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            section {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 1.4em;
+            }
+
+            h2 {
+                justify-self: left;
+            }
+
+            .content-wrapper {
+                padding: 10px 35px;
+            }
+        }
+
+    </style>
+
 </head>
 <body>
+
     <h1>
         <a href="https://github.com/rb-thompson" target="_blank">Robert Brandon Thompson</a>
     </h1>
     <hr>
+    <main class="content-wrapper">
 
-    <div class="content">
+
         <section>
             <h2>My Hobbies</h2>
 
             <ul>
-                <li>Literature</li>
-                <li>STEM</li>
-                <li>Cooking</li>
+                <li>&#8594; Literature</li>
+                <li>&#8594; STEM</li>
+                <li>&#8594; Cooking</li>
             </ul>
         </section>
+
         <section>
             <h2>My Goals for 2025</h2>
     
             <ol>
-                <li>Read 50 books</li>
-                <li>Find a job doing data analysis</li>
-                <li>Attend a Starship watch party</li>
+                <li>Read 50 books (Progress: 2/50)</li>
+                <li>Build a career in data analysis</li>
+                <li>Contribute to open source projects</li>
             </ol>
         </section>
-    </div>
+    </main>
 
 </body>
 </html>
